@@ -1,3 +1,324 @@
+.light {
+	--bg: #fff;
+	--text-color: #311996;
+	transition: background 0.6s ease-in-out;
+}
+:root {
+	--bg: #1D262D;
+	--max-width: 1440px;
+	--text-color: #F8F0E4;
+	--content-width: 1238px;
+	--accent: #E12179;
+	--hover: linear-gradient(45deg, red, blue);
+}
+
 body {
+	background-color: var(--bg);
+	transition: background 0.6s ease-in-out;
+}
+
+.wrapper {
+	max-width: var(--max-width);
+	padding: 0 20px;
+	margin: 0 auto;
+}
+.page-header__inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: var(--content-width);
+	height: 80px;
+	margin: 0 auto;
+}
+.page-header-buttom {
+	opacity: 0.7;
+	cursor: pointer;
+}
+.page-header-nav__list{
+	display: flex;
+	justify-content: space-between;
+}
+.page-header-nav__item{
+	list-style-type: none;
+	margin: 0;
+}
+.page-header-nav__link {
+	font-family: "Ubuntu", sans-serif;
+	color: var(--text-color);
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: 400;
+	margin-left: 32px;
+
+}
+.about-me {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+}
+.about-me-btn {
+	display: flex;
+	gap: 32px;
+}
+.about-me__photo {
+	width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 12px 17px 5px rgb(154 143 186 / 89%), -7px -6px 4px #8b82aa;
+}
+.about-me__img {
+	width: 100%;
+	height: 100%;
 	
 }
+.about-me__title {
+	margin: 32px auto;
+	text-align: center;
+	color: var(--text-color);
+	font-weight: 700;
+	font-size: 100px;
+}
+.about-me__text {
+	max-width: 85%;
+	text-align: center;
+	color: var(--text-color);
+}
+.about-me-photo__text {
+	font-family: "Poppins", sans-serif;
+	font-size: 1.5em;
+	font-weight: bold;
+	color: var(--text-color)
+}
+.about-me-photo__text-color {
+	color: purple;
+}
+.about-me-photo__text-color:after {
+	content: "";
+	display: inline-flex;
+	background-image: url("./img/hand.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 26px;
+	height: 26px;
+}
+.btn {
+	display: inline-block;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    background-color: var(--accent);
+    border: 1px solid var(--accent);
+    color: var(--text-color);
+    padding: 1rem 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+	position: relative;
+}
+.btn-download {
+	padding: 0.8em 1.5em;
+	background-color: transparent;
+}
+.btn span {
+	position: relative;
+	z-index: 3;
+}
+.btn-email:after,
+.btn-download:after {
+  position: absolute;
+  display: block;
+  content: "";
+  width: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  background: var(--hover);
+  transition: width ease-in-out 0.5s;
+  z-index: 1;
+}
+.btn-email:hover::after,
+.btn-download:hover::after {
+	width: 100%;
+	left: 0;
+	background: var(--hover);
+	transition: width ease-in-out 0.5s;
+}
+.download-svg {
+	width: 20px;
+	height: 18px;
+	fill: white;
+}
+.contact-links {
+}
+.contact-links__item {
+	position: absolute;
+	display: inline-flex;
+	opacity: 0.6;
+	animation: anime 2s ease-in-out infinite alternate ;
+}
+.contact-links__link {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	border: 10px solid;
+	border-radius: 50%;
+	border-width: 20px;
+	transition: border 0.6s ease-in-out;
+	
+}
+.instagram .contact-links__link {
+	transform: translateX(-50%) translateY(-50%);
+}
+.email .contact-links__link {
+	transform: translateX(50%) translateY(-50%);
+}
+.github .contact-links__link {
+	transform: translateX(50%) translateY(-50%);
+}
+.contact-links__link:hover {
+	border-width: 40px;
+    transition: border 0.3s ease-in-out;
+}
+ .github {
+	top: calc(50% - 20em);
+	right: 20em;
+}
+.instagram {
+	top: calc(50% - 8em);
+	left: 14em;
+	animation-direction: alternate-reverse;
+}
+.email {
+	top: calc(50% - 4em);
+	right: 10em;
+	animation-delay: 0.2s;
+}
+#insta {
+	fill: var(--bg);
+	width: 24px;
+	height: 24px;
+	background-color: #6E5494;
+	border-radius: 50%;
+	padding: 2px;
+	box-sizing: border-box;
+}
+#email {
+	fill: var(--bg);
+	width: 24px;
+	height: 24px;
+	background-color: #6E5494;
+	border-radius: 50%;
+	padding: 2px;
+	box-sizing: border-box;
+}
+#moon {
+	transform: rotate(-45deg);
+	transform-origin: 50% 50%;
+}
+#sunbody circle {
+	transform: scale(0);
+	transform-origin: center center;
+}
+
+
+@keyframes anime {
+	0% {
+		transform: translateY(-8px);
+	}
+	100% {
+		transform: translateY(10px);
+	}
+}
+                   /* Темный/Белый режим */
+#moon {
+	transform: rotate(-45deg);
+	transform-origin: center center;
+  }
+  
+  #toggle g circle {
+	transform-origin: center center;
+	transform: scale(0);
+  }
+  
+  @keyframes hideMoon {
+	0% {
+	  transform: rotate(0);
+	}
+  
+   50% {
+	  transform: rotate(135deg) scale(0.4);
+	}
+  
+	60% {
+	  transform: rotate(200deg) scale(0.2);
+	}
+  
+	100% {
+	  transform: rotate(200deg) scale(0);
+	}
+  }
+  
+  @keyframes revealSun {
+	0% {
+	  transform: scale(0);
+	}
+	40% {
+	  transform: scale(0.8);
+	}
+	80% {
+	  transform: scale(1);
+	}
+	100% {
+	  transform: scale(1);
+	}
+  }
+  
+  @keyframes revealBeams {
+	0% {
+	  transform: scale(0);
+	}
+	25% {
+	  transform: scale(1);
+	}
+	100% {
+	  transform: scale(1);
+	}
+  }
+  
+  @keyframes hideSun {
+	0% {
+	transform: scale(1);
+	}
+	50% {
+	  transform: scale(0);
+	}
+	100% {
+	  transform: scale(0);
+	}
+  }
+  
+  @keyframes revealMoon {
+	0% {
+	transform: scale(0);
+	}
+	10% {
+	  transform: scale(0.7) rotate(100deg);
+	  }
+	40% {
+	transform: scale(1) rotate(-15deg);
+	}
+	50% {
+	transform: scale(1) rotate(-60deg);
+	}
+	74.755% {
+	  transform: scale(1) rotate(-35deg);
+	}
+	85% {
+	transform: scale(1) rotate(-50deg);
+	}
+	100% {
+	  transform: scale(1) rotate(-45deg);
+	}
+  }
