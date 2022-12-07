@@ -31,7 +31,9 @@ Telegram                        |Discord                                        
 * **Git**
 * **VS code + Sublime Text**
 * **React**
+
 ---
+
 ## Примеры кода: 
 * ###### Calculate BMI
 ```
@@ -68,11 +70,13 @@ function toCsvText(array) {
 }
 ```
 ---
+
 ## Опыт Работы
 * [AIM Treining](https://shaihali.github.io/AIM-game/) - Игра для улучшения наввыка точноси попадания. Разработана на чистом JavaScript
 * [Card Gallery](https://shaihali.github.io/card-gallery/) - Красивая реализация слайда с выделением выбранного фрагмента. Разработана на HTML CSS и JavaScript
 * [Приложение на React](https://github.com/Shaihali/first-react-app) - Мое первое React приложение, где был реализован функционал всех видов запросов на сервер.  
 ---
+
 ## Образование 
 * Дагестанский государственный университет, г. Махачкала - прикладная информатика - 2008-2013г.
 * Самоизучение начиная основ HTML, CSS, затем JS.
@@ -80,6 +84,7 @@ function toCsvText(array) {
 * Курс JS/FE Pre-School 2022Q1 в RSSchool - 2022г.
 * Курс JS/FE Pre-School 2022Q4 в RSSchool - 2022г.
 ---
+
 ## Английский язык
 * А2 - базу получил в турецком колледже.
 ---
