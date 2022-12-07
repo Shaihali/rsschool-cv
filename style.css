@@ -1,0 +1,10 @@
+.temporary-board {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.temporary-board__title {
+	font-size: 96px;
+}
