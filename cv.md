@@ -30,7 +30,7 @@ Telegram - [@mr-sshm](https://t.me/mr-sshm) |Discord - [Shaihali Saybulaev(@Shai
 * **React**
 ---
 ## Примеры кода: 
-###### Calculate BMI
+* ###### Calculate BMI
 ```
 function bmi(weight, height) {
   let bodyMass = (weight /height**2);
@@ -47,7 +47,7 @@ function bmi(weight, height) {
   return bodyMass;
 }
 ```
-###### DNA to RNA Conversion
+* ###### DNA to RNA Conversion
 ```
 function DNAtoRNA(dna) {
  	 	let str = dna.replace(/T/g, "U");
@@ -55,7 +55,7 @@ function DNAtoRNA(dna) {
  }
  console.log(DNAtoRNA("TGTT"));
  ```
- ###### CSV representation of array
+ * ###### CSV representation of array
  ```
  let row = [];
 function toCsvText(array) {
