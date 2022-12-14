@@ -16,7 +16,8 @@
 						<li class="nav-menu__item"><a class="nav-menu__link" href="">Experience</a></li>
 						<li class="nav-menu__item"><a class="nav-menu__link" href="">Education</a></li>
 						<li class="nav-menu__item"><a class="nav-menu__link" href="">About me</a></li>
-						<li class="nav-menu__item"><a class="nav-menu__link" href="">Portfolio</a></li>
+						<li class="nav-menu__item"><a class="nav-menu__link" href="">Projects</a></li>
+						<li class="nav-menu__item"><a class="nav-menu__link" href="">&lt/ Code</a></li>
 						<li class="nav-menu__item"><a class="nav-menu__link" href="">Contact</a></li>
 					</ul>
 				</nav>
@@ -31,12 +32,116 @@
 						</p>
 						<button class="main-content__btn">Contact me</button>
 					</div>
-					<div class="header-content__img"></div>
+					<div class="header-content__img">
+						<ul>
+							<li class="circle-btn circle-btn_pos1"><a href="#">Ds</a></li>
+							<li class="circle-btn circle-btn_pos2"><a href="https://github.com/shaihali">&lt/</a></li>
+							<li class="circle-btn circle-btn_pos3"><a href="#">Pr</a></li>
+							<li class="circle-btn circle-btn_pos4"><a href="#">Tm</a></li>
+						</ul>
+					</div>
 					<div class="circle"></div>
 				</div>
 			</div>
 		</header>
-		<main></main>
+		<main>
+			<div class="content-box">
+				<section class="skills">
+					<h2 class="section-title">Skills</h2>
+					<ul class="skills__list">
+						<li class="skills__item html-icon">HTML</li>
+						<li class="skills__item css-icon">CSS</li>
+						<li class="skills__item js-icon">JavaScript</li>
+						<li class="skills__item react-icon">React</li>
+						<li class="skills__item git-icon">Git</li>
+						<li class="skills__item bam-icon">БЭМ</li>
+						<li class="skills__item figma-icon">Figma</li>
+					</ul>
+				</section>
+				<section class="about-me">
+					<h2 class="section-title">About me</h2>
+					<div class="about-section-content-block">
+						Hello again everyone! So, you already know that my name is Shaikhali. A little about myself: I am 31 years old, a crossfit football player, I love competition since childhood, I live in Makhachkala, the Republic of Dagestan. Why programming? Everything is elementary - I like it, I enjoy it, the profession of the future, thanks to which I can provide for myself and fulfill my dream - traveling. At the moment I specialize in web - front-end development. Why should you choose me? I approach each task responsibly with burning eyes. Always ready to learn, gain new knowledge, and bring his professional skills to the elite level.
+						There is another quality - it is tenacity. I can hold on and not let go until I get what I want. This applies to programming tasks as well.
+						If you are interested in me, want to know something else or use my services, then below I will provide all my contacts.
+					</div>
+					<img class="about-section-img" src="./photo_2022-11-27_21-22-41.jpg" alt="my_photo">
+					<div class="circle-about-section-big"></div>
+					<div class="circle-about-section-middle"></div>
+					<div class="circle-about-section-small"></div>
+				</section>
+			</div>
+			<section class="code">
+				<div class="content-box">
+					<h2 class="section-title">Code Example</h2>
+					<div class="code-box">
+						<div class="code__item">
+							<h3 class="code__item-title">Calculate BMI</h3>
+							<code class="codewars-code">
+								function bmi(weight, height) {<br><br>
+								let bodyMass = (weight /height**2); if(bodyMass <= 18.5) {<br>
+									&nbsp&nbsp return bodyMass = "Underweight"<br>
+								&nbsp }else if(bodyMass <= 25.0) {<br>
+									&nbsp&nbsp return bodyMass = "Normal"<br>
+								&nbsp }else if(bodyMass >= 25 && bodyMass <= 29.9) {<br>
+									&nbsp&nbsp return bodyMass = "Overweight"<br>
+								&nbsp }else {<br>
+									&nbsp&nbsp return bodyMass = "Obese"<br>
+								&nbsp }<br>
+								&nbsp return bodyMass;<br>
+									}
+								</pre>
+							</code>
+						</div>
+						<div class="code__item">
+							<h3 class="code__item-title">DNA to RNA Conversion</h3>
+							<code class="codewars-code">
+								function DNAtoRNA(dna) {<br>
+									&nbsplet str = dna.replace(/T/g, "U");<br>
+									&nbsp&nbspreturn str;<br>
+								}<br>
+						 		console.log(DNAtoRNA("TGTT"));
+							</code>
+						</div>
+						<div class="code__item">
+							<h3 class="code__item-title">CSV representation of array</h3>
+							<code class="codewars-code">
+								let row = [];<br><br>
+								function toCsvText(array) {<br>
+									&nbspfor(let i = 0; i < array.length; i++) {<br>
+										&nbsp&nbspreturn row = array.join("\n")<br>
+										&nbsp}<br>
+								}
+							</code>
+						</div>
+						<div class="code__item">
+							<h3 class="code__item-title">For Twins: 2. Math operations</h3>
+							<code class="codewars-code">
+								function iceBrickVolume(radius, bottleLength, rimLength) {<br>
+									&nbspreturn (bottleLength - rimLength) * radius * radius*2<br>
+								}<br>
+								console.log(iceBrickVolume(1, 10, 2))
+							</code>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="content-box">
+				<section class="project">
+					<h2 class="section-title">Projects</h2>
+					<div class="project-box">
+						<div class="project-img">
+							<img src="./img/project.png" alt="my_project" class="project-img__item">
+						</div>
+						<div class="project-desc">
+							<h3>AIM-game</h3>
+							<p class="project-desc__item">AIM game is developed in Javascript language with interaction with CSS properties. The functionality was also implemented, for each player to fill in their data and then get into the tournament table with points. Filling in data and receiving data is implemented using requests to the server. As a fetch request is more modern, and also with the help of Ajax requests. In the future, an application will be built for react.</p>
+							<a href="https://shaihali.github.io/AIM-game/" class="project-desc__link">try</a>
+						</div>
+					</div>
+				</section>
+			</div>
+		</main>
 		<footer></footer>
 </body>
 </html>
