@@ -102,7 +102,7 @@ header {
 	left: 100%;
 }
 .header-content__img {
-	background-image: url('./img/I`m.png');
+	background-image: url('./assets/img/I`m.png');
 	background-size: 500px 500px;
 	background-repeat: no-repeat;
 	background-position: 100% 50%;
