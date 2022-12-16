@@ -517,7 +517,7 @@ header {
 }
 .project-box::after {
 	content: '';
-	background-image: url('./img/iconnext.png');
+	background-image: url('./assets/img/iconnext.png');
 	background-repeat: no-repeat;
 	width: 64px;
 	height: 64px;
@@ -528,7 +528,7 @@ header {
 }
 .project-box::before {
 	content: '';
-	background-image: url('./img/iconnext.png');
+	background-image: url('./assets/img/iconnext.png');
 	background-repeat: no-repeat;
 	width: 64px;
 	height: 64px;
@@ -696,4 +696,58 @@ svg .st7 {
 }
 
 
+@media (max-width: 1199.98px) {
+	.content-box {
+		max-width: 998px;
+	}
+	.circle {
+		top: 44px;
+		left: 32%;
+		width: 350px;
+		height: 350px;
+	}
 
+	.circle-btn_pos1 {
+		right: 150px;
+    top: 20px;
+	}
+	.circle-btn_pos2 {
+		right: 295px;
+    top: 31px;
+	}
+	.circle-btn_pos3 {
+		left: 521px;
+    top: 117px;
+	}
+	.circle-btn_pos4 {
+		right: 427px;
+    top: 252px;
+	}
+	.main-content__title {
+		font-size: 58px;
+	}
+	.header-content__img {
+		height: auto;
+		background-size: 400px 400px;
+	}
+	.project-box::before {
+		background-size: 100%;
+		width: 40px;
+		height: 40px;
+		right: 45%;
+    bottom: -68px;
+	}
+	.project-box::after {
+		background-size: 100%;
+		width: 40px;
+		height: 40px;
+		left: 45%;
+    bottom: -68px;
+	}
+	.circle-about-section-small {
+		right: 4px;
+	}
+	.about-section-img {
+		right: 64px;
+	}
+ }
