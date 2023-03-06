@@ -26,6 +26,8 @@ Telegram                        |Discord                                        
 * **HTML + HTML5**
 * **CSS + CSS3**
 * **JavaScript**
+* **SCSS (Sass)**
+* **Webpack**
 * **БЭМ**
 * **Git**
 * **VS code + Sublime Text**
@@ -74,6 +76,8 @@ function toCsvText(array) {
 ## Опыт Работы
 * [AIM Treining](https://shaihali.github.io/AIM-game/) - Игра для улучшения наввыка точноси попадания. Разработана на чистом JavaScript
 * [Card Gallery](https://shaihali.github.io/card-gallery/) - Красивая реализация слайда с выделением выбранного фрагмента. Разработана на HTML CSS и JavaScript
+* [Plants - pet project](https://rolling-scopes-school.github.io/shaihali-JSFEPRESCHOOL2022Q4/plants/) - Сайт продажи цветов
+* [Momentum](https://rolling-scopes-school.github.io/shaihali-JSFEPRESCHOOL2022Q4/momentum/) - Аналог одноимённого приложения интернет-магазина Chrome
 * [Приложение на React](https://github.com/Shaihali/first-react-app) - Мое первое React приложение, где был реализован функционал всех видов запросов на сервер.  
 
 ---
