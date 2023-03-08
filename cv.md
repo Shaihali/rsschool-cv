@@ -83,15 +83,16 @@ function toCsvText(array) {
 ---
 
 ## Education 
-* Дагестанский государственный университет, г. Махачкала - прикладная информатика - 2008-2013г.
-* Самоизучение начиная основ HTML, CSS, затем JS.
-* Курс JavaScript + React в IntenseIT - 2021г.
-* Курс JS/FE Pre-School 2022Q1 в RSSchool - 2022г.
-* Курс JS/FE Pre-School 2022Q4 в RSSchool - 2022г.
+* Dagestan State University, Makhachkala - Applied Informatics - 2008-2013г.
+* Self-study starting with the basics of HTML, CSS, then JS.
+* JavaScript + React course at IntenseIT - 2021г.
+* JS/FE Pre-School 2022Q1 at RSSchool - 2022г.
+* JS/FE Pre-School 2022Q4 в RSSchool - 2022г.
+* JS/Front-end 2021Q1 в RSSchool - 2023г.
 
 ---
 
 ## English language
-* А2 - базу получил в турецком колледже.
+* А2 - received a base in a Turkish college.
 
 ---
