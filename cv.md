@@ -11,18 +11,18 @@ Telegram                        |Discord                                        
 --------------------------------|----------------------------------------------------|--------------------|----------------------------------------------------------|
 [@mr-sshm](https://t.me/mr-sshm)|[Shaihali Saybulaev(@Shaihali)](https://discord.com)|mr.saybulaev@mail.ru|[https://github.com/Shaihali](https://github.com/Shaihali)| 
 
-## О себе 
-	Целеустремленный, энергичный, саморазвивающий программист 21 века.  
-	Пишу код горящими глазами и с большим желанием.
-	Люблю решать трудные задачи и после долгого и муторного процесса, получать удовольствие от найденного решения.  
-	Раскрываюсь после 3 месяцев работы и общения.  
-	При себе имею цель развиваться и стать профессионалом в разработке.  
-	За время моего становления фронтовиком были сверстаны не мало проектов на основе макетов от Figma,  
-	с адаптивом и без, с подключением скриптов и фреймворков.  
-	Очень хочется найти хороший коллектив по душе и писать вместе код для души, чтоб клиентам заходил проямо в душу.
+## About Me 
+Purposeful, energetic, self-developing programmer of the 21st century.
+I write code with burning eyes and with great desire.
+I like to solve difficult problems and after a long and dreary process, to enjoy the solution found.
+Opening up after 3 months of work and communication.
+I have a goal to develop and become a professional in development.
+During my becoming a front-line soldier, quite a few projects were made based on layouts from Figma,
+with and without adaptive, with the connection of scripts and frameworks.
+I really want to find a good team to their liking and write code for the soul together, so that customers go right into the soul.
 
 ---
-## Навыки	
+## Skills	
 * **HTML + HTML5**
 * **CSS + CSS3**
 * **JavaScript**
@@ -35,7 +35,7 @@ Telegram                        |Discord                                        
 
 ---
 
-## Примеры кода: 
+## Code examples: 
 * ###### Calculate BMI
 ```
 function bmi(weight, height) {
@@ -73,16 +73,16 @@ function toCsvText(array) {
 
 ---
 
-## Опыт Работы
-* [AIM Treining](https://shaihali.github.io/AIM-game/) - Игра для улучшения наввыка точноси попадания. Разработана на чистом JavaScript
-* [Card Gallery](https://shaihali.github.io/card-gallery/) - Красивая реализация слайда с выделением выбранного фрагмента. Разработана на HTML CSS и JavaScript
-* [Plants - pet project](https://rolling-scopes-school.github.io/shaihali-JSFEPRESCHOOL2022Q4/plants/) - Сайт продажи цветов
-* [Momentum](https://rolling-scopes-school.github.io/shaihali-JSFEPRESCHOOL2022Q4/momentum/) - Аналог одноимённого приложения интернет-магазина Chrome
-* [Приложение на React](https://github.com/Shaihali/first-react-app) - Мое первое React приложение, где был реализован функционал всех видов запросов на сервер.  
+## Experience
+* [AIM Treining](https://shaihali.github.io/AIM-game/) - A game to improve the skill of accuracy and hitting. Developed in pure JavaScript
+* [Card Gallery](https://shaihali.github.io/card-gallery/) - Beautiful implementation of the slide with the selection of the selected fragment. Developed with HTML CSS and JavaScript
+* [Plants - pet project](https://rolling-scopes-school.github.io/shaihali-JSFEPRESCHOOL2022Q4/plants/) - Flower sales site
+* [Momentum](https://rolling-scopes-school.github.io/shaihali-JSFEPRESCHOOL2022Q4/momentum/) - An analogue of the eponymous application of the Chrome Web Store
+* [Приложение на React](https://github.com/Shaihali/first-react-app) - My first React application, where the functionality of all types of requests to the server was implemented.  
 
 ---
 
-## Образование 
+## Education 
 * Дагестанский государственный университет, г. Махачкала - прикладная информатика - 2008-2013г.
 * Самоизучение начиная основ HTML, CSS, затем JS.
 * Курс JavaScript + React в IntenseIT - 2021г.
@@ -91,7 +91,7 @@ function toCsvText(array) {
 
 ---
 
-## Английский язык
+## English language
 * А2 - базу получил в турецком колледже.
 
 ---
